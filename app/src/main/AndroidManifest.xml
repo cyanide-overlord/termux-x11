@@ -25,6 +25,7 @@
             android:enabled="true"
             android:exported="false"/>
         <activity android:name=".MainActivity"
+            android:windowSoftInputMode="stateVisible"
             android:launchMode="singleInstance"
             android:supportsPictureInPicture="true"
             android:configChanges="fontScale|orientation|screenSize|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|screenLayout|touchscreen|uiMode|smallestScreenSize|density"
